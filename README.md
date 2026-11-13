@@ -1,17 +1,15 @@
 # CO2 Emissions Analysis: Canada
 
+**Student:** Rachelle A. Quebec
 **Country:** Canada  
 **ISO-3 Code:** CAN  
 **Study Period:** 1990–2024
 
+## 1. Research Question
+How have Canada's annual CO₂ emissions and CO₂ emissions per capita changed from 1990 to 2024?
+
 ## Project Overview
 This project analyzes Canada's annual carbon dioxide (CO2) emissions from 1990 to 2024 using RStudio and data from Our World in Data.
-
-## Objectives
-1. Examine annual CO2 emission trends in Canada.
-2. Calculate changes in CO2 emissions over time.
-3. Identify the year with the highest CO2 emissions.
-4. Visualize annual emissions, yearly percentage changes, and per-capita emissions.
 
 ## Data Source
 Our World in Data — CO2 and Greenhouse Gas Emissions dataset.
@@ -35,6 +33,28 @@ The dataset was processed using RStudio. Annual CO2 emissions were examined usin
 
 ### CO2 Emissions Per Capita
 ![CO2 per capita](figures/CAN_per_capita.png)
+
+## Interpretation and Discussion
+The analysis shows that Canada's annual CO₂ emissions increased from 459.18 million tonnes in 1990 to 540.00 million tonnes in 2024, representing an overall increase of 17.60%. The highest emissions occurred in 2007, reaching 592.03 million tonnes. Although emissions fluctuated afterward, the 2024 level remained higher than in 1990.
+
+Total CO₂ emissions represent the country's overall contribution, while per-capita emissions show the average emissions per person. Interestingly, Canada's per-capita emissions decreased from 16.52 tonnes per person in 1990 to 13.59 tonnes in 2024, despite the increase in total emissions. This indicates that the two measurements can follow different trends.
+
+A sustained increase in emissions was observed during the 1990s, from 459.18 million tonnes in 1990 to 567.87 million tonnes in 2000. However, a notable decrease occurred in 2020, when emissions dropped from 578.72 million tonnes in 2019 to 523.54 million tonnes, a decline of 9.53%.
+
+One possible explanation is the COVID-19 pandemic, which reduced transportation and economic activities. Environment and Climate Change Canada (2026) reported that pandemic-related disruptions contributed to reduced national greenhouse gas emissions in 2020. However, this analysis cannot establish the exact cause of the observed CO₂ decrease.
+
+Monitoring national emissions is important because CO₂ contributes to global warming, climate change, and ecological disturbances. However, territorial emissions data exclude emissions associated with imported goods and therefore do not represent Canada's complete consumption-based carbon footprint.
+
+## Limitations
+This analysis focuses only on Canada's CO₂ emissions from 1990 to 2024. It does not include other greenhouse gases, such as methane and nitrous oxide. The dataset uses territorial emissions and does not fully account for emissions from imported goods or land-use changes and forestry. Additionally, the analysis is descriptive and cannot determine the exact causes of changes in CO₂ emissions.
+
+## References
+Environment and Climate Change Canada. (2026). National Inventory Report 1990–2024: Greenhouse Gas Sources and Sinks in Canada. Government of Canada. https://www.canada.ca/en/environment-climate-change/services/climate-change/greenhouse-gas-emissions/inventory.html
+
+International Energy Agency. (2022). Canada 2022: Energy Policy Review. https://www.iea.org/countries/canada
+
+Our World in Data. (n.d.). CO₂ and Greenhouse Gas Emissions Dataset. https://github.com/owid/co2-data
+
 
 ## Repository Contents
 - `data/` — CO2 dataset
