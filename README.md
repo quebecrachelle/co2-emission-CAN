@@ -8,11 +8,15 @@
 ## 1. Research Question
 How have Canada's annual CO₂ emissions and CO₂ emissions per capita changed from 1990 to 2024?
 
-## Project Overview
-This project analyzes Canada's annual carbon dioxide (CO2) emissions from 1990 to 2024 using RStudio and data from Our World in Data.
+## 2. Data Source
+The dataset was obtained from Our World in Data (OWID), specifically the CO₂ and Greenhouse Gas Emissions Dataset. This analysis focuses on Canada's annual CO₂ emissions and CO₂ emissions per capita from 1990 to 2024.
 
-## Data Source
-Our World in Data — CO2 and Greenhouse Gas Emissions dataset.
+**Source:** https://github.com/owid/co2-data
+
+**Dataset (CSV):** https://owid-public.owid.io/data/co2/owid-co2-data.csv
+
+## Software Used
+R and RStudio
 
 ## Methods
 The dataset was processed using RStudio. Annual CO2 emissions were examined using line graphs, and year-to-year percentage changes were calculated. Summary statistics were generated to compare emissions at the beginning and end of the study period.
@@ -54,16 +58,3 @@ Environment and Climate Change Canada. (2026). National Inventory Report 1990–
 International Energy Agency. (2022). Canada 2022: Energy Policy Review. https://www.iea.org/countries/canada
 
 Our World in Data. (n.d.). CO₂ and Greenhouse Gas Emissions Dataset. https://github.com/owid/co2-data
-
-
-## Repository Contents
-- `data/` — CO2 dataset
-- `scripts/` — R analysis code
-- `figures/` — Generated graphs
-- `results/` — Summary statistics and annual changes
-
-## Software Used
-R and RStudio
-
-## Conclusion
-Canada's annual CO2 emissions increased overall between 1990 and 2024, although the data show considerable fluctuations and periods of decline. The analysis illustrates how emissions have changed over time.
