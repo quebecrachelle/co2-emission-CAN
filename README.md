@@ -1,4 +1,4 @@
-# CO2 Emissions Analysis: Canada
+# CO2 Emissions Analysis: Canada (1990-2024)
 
 **Student:** Rachelle A. Quebec
 **Country:** Canada  
